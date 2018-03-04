@@ -1,0 +1,116 @@
+
+
+
+body {
+	background: #fff;
+	font-family: helvetica;
+}
+
+
+#sizePicker {
+	width: 100px;
+}
+
+#colorPicker {
+	width:20px ;
+	margin: 2px;
+	float: left;
+}
+
+
+#colorl{
+	width: 100px;
+	float: left;
+	text-align: left;
+	color: #555b6e;
+
+}
+
+
+.header {
+	text-align: center;
+	color: #555b6e;
+	margin: 10px;
+	
+}
+
+#instructions {
+	border-bottom-style: solid; 
+	border-bottom-color: #D7263D;
+	border-bottom-width: 1px;
+	box-shadow: 0px, 10px, 10px, #555B6E;
+
+}
+
+.inputs {
+	text-align: center;
+	color: #555b6e;
+	width:29%;
+	float: left; 
+	display: inline-block;
+	margin: 1px;
+
+
+}
+
+
+
+
+.canvas{
+	width: 69%; 
+	float: right;
+	display: inline-block;
+	margin: 1px;
+	
+ 
+}
+
+
+
+
+tr, td {
+	border: 1px solid #000;
+	}
+
+
+#pixelCanvas{
+	background-color: white;
+	border-collapse: collapse;	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+.col{
+	height: 25px;
+	width: 25px;
+	z-index: 0;
+	
+}
+
+.cell{
+	height: 22px;
+	width: 22px;
+	z-index: 1;
+
+	
+}
+
+
+
+#reset {
+  position: relative;
+  height: 19px;
+  width: 50px;
+}
+
+
+
+.cHeader {
+	text-align: center;
+	
+	/*padding-left: 140px;
+	
+}
