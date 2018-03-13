@@ -32,8 +32,13 @@ $('#sizePicker').submit(function( event ) {
  		 
 function fillCell(){
 	color = $('#colorPicker').val();
+
+
+	
 	$('td').on('click',function(){
-		$(this).css('background-color', color ) ;
+		if ($('td').css('background-color') === color){
+			$('td').css('background-color', '#FFFFFF')
+		} else {$('td').css('background-color', color)};
 	})};
 
 
